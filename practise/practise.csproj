@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8BAE56BA-4DA3-45D7-B33E-571565E606A8}</ProjectGuid>
+    <ProjectGuid>{B94C90C8-BED6-4515-92B5-117E08C93B1E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>COMP123_Assignment3</RootNamespace>
-    <AssemblyName>COMP123-Assignment3</AssemblyName>
+    <RootNamespace>practise</RootNamespace>
+    <AssemblyName>practise</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GiantPlanet.cs" />
-    <Compile Include="IHabitable.cs" />
-    <Compile Include="IHasMoons.cs" />
-    <Compile Include="IHasRings.cs" />
-    <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TerrestrialPlanet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

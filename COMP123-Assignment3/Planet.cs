@@ -66,7 +66,7 @@ namespace COMP123_Assignment3
             }
         }
 
-        Planet(string name, double diameter, double mass)
+        public Planet(string name, double diameter, double mass)
         {
             _name = name;
             _diameter = diameter;
